@@ -1,5 +1,5 @@
 {
-    "name": "Ultroid UserBot",
+    "name": "EXTREME FIGHTERS",
     "description": "Pluggable telegram userbot, made in python using Telethon.",
     "logo": "https://telegra.ph/file/1518e15421d21c5afd9af.jpg",
     "keywords": ["Telethon", "telegram", "userbot", "python"],
@@ -10,19 +10,19 @@
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
-            "value": ""
+            "value": "1754367"
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": ""
+            "value": "231b8cc6cca12ee51a85cf543321f476"
         },
         "BOT_USERNAME": {
             "description": "Make a bot from @BotFather, and enter it's username here, with '@'",
-            "value": ""
+            "value": "@GANGSTERSPAMKELIYEBOTpp"
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
-            "value": ""
+            "value": "1606015018:AAGSwgQLy3WfgEJt8K0Je7HGMHAm6MCDRXQ"
         },
         "SESSION": {
             "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
@@ -30,11 +30,11 @@
         },
         "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
-            "value": ""
+            "value": "redis-17733.c82.us-east-1-2.ec2.cloud.redislabs.com:17733"
         },
         "REDIS_PASSWORD": {
             "description": "Redis endpoint password, from redislabs.com",
-            "value": ""
+            "value": "F0cW9S9aiXh52ZGMWJnHtdQygJvAITZ2"
         },
         "HEROKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
@@ -44,6 +44,10 @@
         "HEROKU_APP_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
             "value": ""
+        },
+        "ADDONS": {
+            "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
+            "value": "true"
         },
         "LOG_CHANNEL": {
             "description": "Create a private group. Add @missrose_bot and your BOT_USERNAME bot. Do /id. Paste that here",
