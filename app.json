@@ -48,6 +48,7 @@
         "LOG_CHANNEL": {
             "description": "Create a private group. Add @missrose_bot and your BOT_USERNAME bot. Do /id. Paste that here",
              "value": ""
+             "required": false
         }
     }
 }
