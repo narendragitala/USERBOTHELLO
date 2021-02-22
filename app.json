@@ -38,7 +38,7 @@
         },
         "ADDONS": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
-            "value": "true",
+            "value": "True",
             "required": false
         },
         "HEROKU_APP_NAME": {
