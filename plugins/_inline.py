@@ -22,9 +22,9 @@ from . import *
 
 # ================================================#
 notmine = "This bot is for {}".format(OWNER_NAME)
-ULTROID_PIC = "https://telegra.ph/file/11245cacbffe92e5d5b14.jpg"
+ULTROID_PIC = "https://te.legra.ph/file/df8fa2868f8a277718a47.jpg"
 helps = """
-[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)
+[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/shayrigalibki)
 
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.
 
@@ -34,7 +34,7 @@ Pʟᴜɢɪɴs ~ {}**
 
 if Var.ADDONS:
     zhelps = """
-[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)
+[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/shayrigalibki)
 
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.
 
@@ -42,7 +42,7 @@ Aᴅᴅᴏɴs ~ {}**
 """
 else:
     zhelps = """
-[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)
+[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/shayrigalibki)
 
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.
 
@@ -77,14 +77,14 @@ async def e(o):
         )
         res = [
             b.article(
-                title="Ultroid Userbot",
-                url="https://t.me/TeamUltroid",
-                description="Userbot | Telethon ",
+                title="naru jaat",
+                url="https://t.me/brokenshayri1",
+                description="Userbot | Narujaat ",
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
             )
         ]
-        await o.answer(res, switch_pm=f"👥 ULTROID PORTAL", switch_pm_param="start")
+        await o.answer(res, switch_pm=f"👥 NARUJAAT PORTAL", switch_pm_param="start")
 
 
 if Var.BOT_USERNAME is not None and asst is not None:
@@ -99,7 +99,7 @@ if Var.BOT_USERNAME is not None and asst is not None:
             result = builder.article(
                 title="Help Menu",
                 description="Help Menu - UserBot | Telethon ",
-                url="https://t.me/TheUltroid",
+                url="https://t.me/BROKENSHAYRI1",
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 text=f"** Bᴏᴛ Oғ {OWNER_NAME}\n\nMᴀɪɴ Mᴇɴᴜ\n\nPʟᴜɢɪɴs ~ {len(PLUGINS) - 4}\nAᴅᴅᴏɴs ~ {len(ADDONS)}**",
                 buttons=[
