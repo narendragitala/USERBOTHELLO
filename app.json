@@ -1,11 +1,11 @@
 {
-    "name": "EXTREME FIGHTERS",
+    "name": "naru boss",
     "description": "Pluggable telegram userbot, made in python using Telethon.",
     "logo": "https://telegra.ph/file/1518e15421d21c5afd9af.jpg",
     "keywords": ["Telethon", "telegram", "userbot", "python"],
-    "repository": "https://github.com/TeamUltroid/Ultroid",
+    "repository": "https://github.com/narendragitala/USERBOTHELLO",
     "website": "https://ultroid.now.sh/",
-    "success_url": "https://t.me/TheUltroid",
+    "success_url": "https://t.me/nruloger",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -18,7 +18,7 @@
         },
         "BOT_USERNAME": {
             "description": "Make a bot from @BotFather, and enter it's username here, with '@'",
-            "value": "@GANGSTERSPAMKELIYEBOTpp"
+            "value": "@JAATNARUKABOT"
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
