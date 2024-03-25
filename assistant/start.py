@@ -33,7 +33,7 @@ async def assistant(event):
             return
         await event.reply(
             f"Hey there, this is Ultroid Assistant of {OWNER_NAME}!\n\n{ok}",
-            buttons=[Button.url("Know More", url="https://t.me/TeamUltroid")],
+            buttons=[Button.url("Know More", url="https://t.me/brokenshayri1")],
         )
 
 
